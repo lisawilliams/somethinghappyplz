@@ -12,7 +12,7 @@ public function __construct() {
 // Create a new object and store it in the registry 
 // @param String $object and the object file prefix 
 // @param String $key pair for the object 
-// @return void 
+// @return void **
 
 public function createAndStoreObject($object, $key)
 { 
