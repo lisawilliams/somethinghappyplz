@@ -5,7 +5,7 @@ class Registry {
 private $objects;
 
 // Array of settings
-private $settings
+private $settings;
 public function __construct() {
 }
 
@@ -35,8 +35,8 @@ $this->settings[$key] = $setting;
 // @return Object 
 
 public function getObject($key)
-{
-return $this->objects[$key];
-}
+	{
+	return $this->objects[$key];
+	}
 }
 ?>
