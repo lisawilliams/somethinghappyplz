@@ -2,6 +2,9 @@
 
 /**
  * Page object for our template manager
+ *
+ * @author Michael Peacock
+ * @version 1.0
  */
 class page {
 

@@ -3,6 +3,8 @@
  * Views: Template manager 
  * Page content and structure is managed with a seperate page object.
  *
+ * @version 1.0
+ * @author Michael Peacock
  */
 class Template {
 

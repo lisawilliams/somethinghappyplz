@@ -2,6 +2,8 @@
 /**
  * Database management / access class: basic abstraction
  * 
+ * @author Michael Peacock
+ * @version 1.0
  */
 class Mysqldb {
 	
