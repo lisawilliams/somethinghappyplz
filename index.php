@@ -2,7 +2,7 @@
 
 session_start();
 
-DEFINE("FRAMEWORK_PATH", dirname( __FILE__ ) ."/" );
+DEFINE("FRAMEWORK_PATH", dirname( __FILE__ )  . '/' );
 
 
 require('registry/registry.class.php');
