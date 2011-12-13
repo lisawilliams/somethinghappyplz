@@ -61,6 +61,15 @@ class Registry {
     {
     	return $this->settings[ $key ];
     }
+    
+    public function errorPage( $heading, $content )
+    {
+    	$this->getObject('template')->buildFromTemplates('header.tpl.php', 'message.tpl.php', 'footer.tpl.php');
+    	$this->getObject('template')->getPage()->addTag( 'heading', $heading );
+    	$this->getObject('template')->getPage()->addTag( 'content', $content );
+    }
+    
+    
 }
 
 ?>
