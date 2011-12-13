@@ -248,7 +248,7 @@ class Authenticatecontroller{
 		{
 			if( $this->registry->getObject('authenticate')->isLoggedIn() == true )
 			{
-				$this->registry->errorPage( 'Already logged in', 'You cannot login as you are already logged in as <strong>' . $this->registry->getObject('authenticate')->getUsername() . '</strong>');	
+				$this->registry->errorPage( 'Already logged in', 'You cannot login as you are already logged in as <strong>' . $this->registry->getObject('authenticate')->getUser()->getUsername() . '</strong>');	
 			}
 			else
 			{
